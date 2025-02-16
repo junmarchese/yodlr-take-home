@@ -3,15 +3,16 @@
 <head>
   <meta charset=utf-8>
   <title>Yodlr Registration Portal</title>
+  <script defer src="signup.js"></script>
 </head>
 <body>
   <h1>Yodlr Registration Portal</h1>
-  <form>
-    Email: <input type="email" name="email"></br>
-    <button type="submit">Submit</button>
+  <form id="signupForm">
+    First Name: <input type="text" name="firstName" id="firstName" required><br>
+    Last Name: <input type="text" name="lastName" id="lastName" required><br>
+    Email: <input type="email" name="email" id="email"></br>
+    <button type="submit">Create an Account</button>
   </form>
-  <p>
-    <a href="/admin.html">Admin Page</a>
-  </p>
+
 </body>
 </html>
